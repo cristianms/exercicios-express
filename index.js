@@ -9,6 +9,7 @@ app.post('/teste1', (req, res) => {
         //     "nome": "Cristian",
         //     "idade": 32
         // }) //envia resposta json
+        
 
         res.json([
             {"nome": "Cristian", "idade": 32},
